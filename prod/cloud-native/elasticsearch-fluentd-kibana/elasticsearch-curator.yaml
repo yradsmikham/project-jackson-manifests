@@ -23,13 +23,8 @@ data:
           stats_result:
           epoch:
           exclude: False
-  config.yml: |-
-    ---
-    client:
-      hosts:
-        - elasticsearch-client.elasticsearch.svc.cluster.local
-      port: 9200
-      use_ssl: True
+  config.yml: "---\nclient:\n  hosts:\n    - elasticsearch-client.elasticsearch.svc.cluster.local\n
+    \ port: 9200\n  use_ssl: False "
 kind: ConfigMap
 metadata:
   labels:

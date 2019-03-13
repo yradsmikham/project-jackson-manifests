@@ -11,7 +11,7 @@ kind: ClusterRole
 metadata:
   labels:
     app: kured
-    chart: kured-1.1.0
+    chart: kured-1.1.1
     heritage: Tiller
     release: kured
   name: kured
@@ -51,7 +51,7 @@ kind: ClusterRoleBinding
 metadata:
   labels:
     app: kured
-    chart: kured-1.1.0
+    chart: kured-1.1.1
     heritage: Tiller
     release: kured
   name: kured
@@ -71,7 +71,7 @@ kind: Role
 metadata:
   labels:
     app: kured
-    chart: kured-1.1.0
+    chart: kured-1.1.1
     heritage: Tiller
     release: kured
   name: kured
@@ -92,7 +92,7 @@ kind: RoleBinding
 metadata:
   labels:
     app: kured
-    chart: kured-1.1.0
+    chart: kured-1.1.1
     heritage: Tiller
     release: kured
   name: kured
@@ -112,7 +112,7 @@ kind: DaemonSet
 metadata:
   labels:
     app: kured
-    chart: kured-1.1.0
+    chart: kured-1.1.1
     heritage: Tiller
     release: kured
   name: kured
