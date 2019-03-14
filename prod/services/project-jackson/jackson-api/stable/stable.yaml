@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-app-api
-          image: "mtarng/jackson-api:v1.0"
+          image: "yradsmikwalmartacr.azurecr.io/project-jackson-api:1"
           imagePullPolicy: Always
           resources:
             limits:
